@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<!-- saved from url=(0052)http://127.0.0.1:5500/UF1/tasca6factura/factura.html -->
+<html lang="ES-ES"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <title>Factura Alex</title>
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./Factura Alex_files/factura.css" type="text/css" media="screen">
+
+<!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+<style type="text/css">
+@font-face {
+  font-weight: 400;
+  font-style:  normal;
+  font-family: 'Circular-Loom';
+
+  src: url('chrome-extension://liecbddmkiiihnedobmlmillhodjkdmb/fonts/CircularXXWeb-Book.woff2') format('woff2');
+}
+
+@font-face {
+  font-weight: 500;
+  font-style:  normal;
+  font-family: 'Circular-Loom';
+
+  src: url('chrome-extension://liecbddmkiiihnedobmlmillhodjkdmb/fonts/CircularXXWeb-Medium.woff2') format('woff2');
+}
+
+@font-face {
+  font-weight: 700;
+  font-style:  normal;
+  font-family: 'Circular-Loom';
+
+  src: url('chrome-extension://liecbddmkiiihnedobmlmillhodjkdmb/fonts/CircularXXWeb-Bold.woff2') format('woff2');
+}
+
+@font-face {
+  font-weight: 900;
+  font-style:  normal;
+  font-family: 'Circular-Loom';
+
+  src: url('chrome-extension://liecbddmkiiihnedobmlmillhodjkdmb/fonts/CircularXXWeb-Black.woff2') format('woff2');
+}</style></head>
+
+<body>
+
+  <div class="foto1">
+  <div class="foto1allargada">
+  </div>
+  </div>
+  <div class="foto2">
+
+    <p><span style="color: turquoise;">Company:</span>CreativeStudios</p>
+    <p><span style="color: turquoise;">NIF</span>X3845728-F</p>
+    <p><span style="color: turquoise;">TEL:</span>872459982</p>
+    <p><span style="color: turquoise;">EMAIL:</span>CreativeStudios@gmail.com</p>
+  </div>
+
+  <div class="invoice">
+    <h1>INVOICE</h1>
+    <p>DATE: <span style="color:black"> JANUARY 12,2019</span></p>
+    <p>INVOICE NO: <span style="color:black">003</span></p>
+  </div>
+  <div class="caixa1">
+    <div class="lletres1">
+      <h1>Emily Tyler</h1>
+    </div>
+    <p>Mike &amp; James Clothing Co.</p>
+    <p>508-572-1812</p>
+    <p>2211 Kovar Road , Bur</p>
+  </div>
+  <div class="caixa2">
+    <div class="lletres1">
+      <br>
+      <h4>PAYMAENT METHOD</h4>
+    </div>
+    <div class="lletres2">
+      <p>ACCT NO:<span style="font-weight:normal">4916 8418 9082 4339</span></p>
+      <p>EMAIL;<span style="font-weight:normal"> emilytyler@mail.com</span></p>
+    </div>
+
+  </div>
+  <div class="caixataula">
+    <table id="customers">
+      <tbody><tr>
+        <th>Item</th>
+        <th> QTY</th>
+        <th>PRICE</th>
+        <th>Total</th>
+      </tr>
+      <tr>
+        <td>Flyer Design</td>
+        <td>02</td>
+        <td>$300</td>
+        <td>$300</td>
+      </tr>
+      <tr>
+
+        <td style="background-color: rgb(204, 200, 200);">Business Card Design</td>
+        <td style="background-color: rgb(204, 200, 200);">02</td>
+        <td style="background-color: rgb(204, 200, 200);">$200</td>
+        <td style="background-color: rgb(204, 200, 200);">$500</td>
+      </tr>
+      <tr>
+        <td>Invoice Design</td>
+        <td>02</td>
+        <td>$250</td>
+        <td>$750</td>
+      </tr>
+      <tr>
+        <td style="background-color: rgb(204, 200, 200);">Logo Design</td>
+        <td style="background-color: rgb(204, 200, 200);">01</td>
+        <td style="background-color: rgb(204, 200, 200);">$500</td>
+        <td style="background-color: rgb(204, 200, 200);">$1250</td>
+      </tr>
+      <tr>
+        <td>Web Design</td>
+        <td>01</td>
+        <td>$500</td>
+        <td>$1750</td>
+      </tr>
+    </tbody></table>
+  </div>
+  <div class="caixa9">
+    <p>Payment Method:</p>
+    <input type="radio" id="Card" name="fav_language" value="HTML">
+    <label for="Card">Card</label><br>
+    <input type="radio" id="Wire" name="fav_language" value="HTML">
+    <label for="Wire">Wire Transfer</label><br>
+    <input type="radio" id="Cash" name="fav_language" value="HTML">
+    <label for="Cash">Cash</label><br>
+    <p>Account:</p>
+    <input type="text" id="Username" name="fav_language" value="Username">
+    <label for="Username"></label><br>
+    <input type="password" id="password" name="fav_language" value="password">
+    <label for="password"></label>
+    <br>
+    <p>Date</p>
+    <input type="date" id="day" name="fav_day" value="">
+    <label for="day"></label> <br>
+  </div>
+  <div class="caixa3">
+    <table class="caixa3">
+      <tbody><tr>
+        <th>SUBTOTAL:$1750</th>
+      </tr>
+      <tr>
+        <th>TAX(15%):262.5</th>
+      </tr>
+      <tr>
+        <th>GRAND TOTAL:$2012.5</th>
+      </tr>
+    </tbody></table>
+  </div>
+  <div class="caixa4">
+    <p>Questions?</p>
+    <p>Email us at accounts@creativestudios.com</p>
+    <p>or call us at 1-917-594-7788</p>
+  </div>
+  <div class="caixa5">
+    <h1> THANK</h1>
+    <h1>YOU!</h1>
+  </div>
+
+  <div class="caixa6">
+    <p>4102 Duncan Avenue,New York.NY 10016·creativestudios.com</p>
+  </div><link rel="stylesheet" type="text/css" href="chrome-extension://liecbddmkiiihnedobmlmillhodjkdmb/css/blur.css" class="loom-blur-styles"></body><loom-container id="lo-engage-ext-container"><loom-shadow classname="resolved"></loom-shadow></loom-container><loom-container id="lo-companion-container"><loom-shadow classname="resolved"></loom-shadow></loom-container></html>
