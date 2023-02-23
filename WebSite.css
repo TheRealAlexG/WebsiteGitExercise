@@ -1,0 +1,88 @@
+
+    .carta{
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+    
+    .column-2.carta{
+      display: grid;
+      grid-template-columns: repeat(2,1fr);
+      column-gap: 1rem;
+      row-gap: 1rem;
+    }
+    
+    .plato-carta{
+      display: flex;
+      align-items: center;
+      border: 1px solid #e5e5e5;
+      border-radius: 6px;
+    }
+    
+    .img-plato-carta{
+      display: flex;
+      flex-basis: 25%;
+      justify-content: center;
+    }
+    
+    .img-plato-carta img{
+      max-width: 125px;
+      max-height: 100px;
+    }
+    
+    .title-plato-carta{
+      border: 1px solid #e5e5e5;
+      border-bottom: none;
+      border-top: none;
+      flex-basis: 60%;
+      padding: 0 1rem;
+    }
+    
+    .precio-plato-carta{
+      display: flex;
+      flex-basis: 15%;
+      justify-content: center;
+      font-weight: bold;
+    }
+    .background-image{
+        background-image: url('polloshermanos.jpg');
+    }
+
+    .footer{
+      margin: 5%;
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 10px;
+      grid-auto-rows: minmax(100px, auto);
+      background-color: #2e2b2b;
+    }
+
+    .footer-column{
+      margin:3%;
+      max-width: 300px;
+      grid-row: auto;
+      grid-column: auto;
+    }
+    ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      background-color: #2e2b2b;
+    }
+    
+    li {
+      float: left;
+    }
+    
+    a {
+      display: block;
+      color: white;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+    }
+    
+    a:hover {
+      background-color: #020202;
+    }
+   

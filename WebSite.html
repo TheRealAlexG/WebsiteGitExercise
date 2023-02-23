@@ -1,107 +1,81 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Page Title</title>
-<style> /** Tarjetas Restaurante **/
-
-    .carta{
-      max-width: 1200px;
-      margin: 0 auto;
-    }
-    
-    .column-2.carta{
-      display: grid;
-      grid-template-columns: repeat(2,1fr);
-      column-gap: 1rem;
-      row-gap: 1rem;
-    }
-    
-    .plato-carta{
-      display: flex;
-      align-items: center;
-      border: 1px solid #e5e5e5;
-      border-radius: 6px;
-    }
-    
-    .img-plato-carta{
-      display: flex;
-      flex-basis: 25%;
-      justify-content: center;
-    }
-    
-    .img-plato-carta img{
-      max-width: 100px;
-      max-height: 75px;
-    }
-    
-    .title-plato-carta{
-      border: 1px solid #e5e5e5;
-      border-bottom: none;
-      border-top: none;
-      flex-basis: 60%;
-      padding: 0 1rem;
-    }
-    
-    .precio-plato-carta{
-      display: flex;
-      flex-basis: 15%;
-      justify-content: center;
-      font-weight: bold;
-    }</style>
+    <link rel="stylesheet" href="WebSite.css">
+<title>Los Pollos Hermanos</title>
 </head>
-<body>
+<body style="background-color: rgb(246, 230, 109);">
 <!--Codi Adri-->
+    <div><img src="polloshermanoss.jpeg" alt="LosPollosHermanos" style="width:250px;height: 250px;">
+    </div>
+    <div>
+      <ul>
+        <li><a class="active"href="starters"></a></li>
+        <li><a href="#starters">Starters</a></li>
+        <li><a href="#secondcourse">Second course</a></li>
+        <li><a href="#Desserts">Desserts</a></li>
+        <li><a href="#about">About</a></li>
+      </ul>
+    </div>
     <div class="carta">
         <div>
-          <h2>1r plat</h2>
+          <h2>Starters</h2>
         </div>
         <div class="wrap column-2 carta">
           <div class="plato-carta">
             <div class="img-plato-carta">
-              <img src="" alt="">
+              <a href="https://www.cookingclassy.com/chicken-curry/">
+                <img src="https://hips.hearstapps.com/del.h-cdn.co/assets/17/31/1501791674-delish-chicken-curry-horizontal.jpg?resize=980:*" alt="">
+              </a>
             </div>
             <div class="title-plato-carta">
-              <h4>Lorem, ipsum dolor.</h4>
-              <p>Lorem ipsum dolor sit amet.</p>
+              <h4>Chicken Curry</h4>
+              <p>Best chicken curry in the world</p>
             </div>
             <div class="precio-plato-carta">
-              <span>9€</span>
+              <span>13€</span>
             </div>
           </div>
           <div class="plato-carta">
             <div class="img-plato-carta">
-              <img src="" alt="">
+              <a href="https://www.theanthonykitchen.com/classic-house-salad-recipe/">
+                <img src="https://www.wholesomeyum.com/wp-content/uploads/2020/06/wholesomeyum-Chef-Salad-Recipe-16.jpg" alt="">
+              </a>
             </div>
             <div class="title-plato-carta">
-              <h4>Lorem, ipsum dolor.</h4>
-              <p>Lorem ipsum dolor sit amet.</p>
+              <h4>Traditional Salad</h4>
+              <p>Best traditional salad in the world</p>
             </div>
             <div class="precio-plato-carta">
-              <span>9€</span>
+              <span>6€</span>
             </div>
           </div> 
           <div class="plato-carta">
             <div class="img-plato-carta">
-              <img src="" alt="">
+              <a href="https://www-onceuponachef-com.translate.goog/recipes/perfectly-grilled-chicken-breasts.html?_x_tr_sl=en&_x_tr_tl=ca&_x_tr_hl=ca&_x_tr_pto=sc">
+                <img src="https://hips.hearstapps.com/hmg-prod/images/grilled-chicken-horizontal-1532030541.jpg?resize=980:*" alt="">
+              </a>
             </div>
             <div class="title-plato-carta">
-              <h4>Lorem, ipsum dolor.</h4>
-              <p>Lorem ipsum dolor sit amet.</p>
+              <h4>Grilled Chicken</h4>
+              <p>Extraordinary grilled chicken</p>
             </div>
             <div class="precio-plato-carta">
-              <span>9€</span>
+              <span>14€</span>
             </div>
           </div>
           <div class="plato-carta">
             <div class="img-plato-carta">
-              <img src="" alt="">
+              <a href="https://southernbite.com/classic-macaroni-and-tomatoes/">
+                <img src="https://img.taste.com.au/eiAmm5e5/w720-h480-cfill-q80/taste/2016/11/pasta-with-simple-tomato-sauce-21073-1.jpeg" alt="">
+              </a>
             </div>
             <div class="title-plato-carta">
-              <h4>Lorem, ipsum dolor.</h4>
-              <p>Lorem ipsum dolor sit amet.</p>
+              <h4>Macaroni with tomato</h4>
+              <p>Best macaroni with tomato di tote italie</p>
             </div>
             <div class="precio-plato-carta">
-              <span>9€</span>
+              <span>30€</span>
             </div>
           </div>    
         </div>
@@ -109,40 +83,46 @@
 <!--Codi Marc-->
         
         <div>
-          <h2>2n plat</h2>
+          <h2>Second course</h2>
         </div>
         <div class="wrap column-2 carta">
           <div class="plato-carta">
             <div class="img-plato-carta">
-              <img src="" alt="">
+              <a href="https://www.spendwithpennies.com/baked-chicken-thighs/">
+                <img src="https://diethood.com/wp-content/uploads/2019/03/Marinated-Baked-Chicken-Thighs-3-500x375.jpg" alt="">
+              </a>
             </div>
             <div class="title-plato-carta">
-              <h4>Lorem, ipsum dolor.</h4>
-              <p>Lorem ipsum dolor sit amet.</p>
+              <h4>Oven Baked Chicken Thighs.</h4>
+              <p>Oven baked chicken thighs are chicken thighs that are seasoned and cooked in the oven until they are crispy on the outside and tender on the inside.</p>
             </div>
             <div class="precio-plato-carta">
-              <span>9€</span>
+              <span>6€</span>
             </div>
           </div>
           <div class="plato-carta">
             <div class="img-plato-carta">
-              <img src="" alt="">
+              <a href="https://www.delish.com/cooking/recipe-ideas/a25635966/chicken-fried-rice-recipe/">
+                <img src="https://www.thespruceeats.com/thmb/-8Oz5jW8Q9-cLcpRhtAn7Afx8Hw=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/easy-chicken-fried-rice-recipe-2098604-hero-01-4cc4085b544e45d4a293c4f05e0c985d.jpg" alt="">
+              </a>
             </div>
             <div class="title-plato-carta">
-              <h4>Lorem, ipsum dolor.</h4>
-              <p>Lorem ipsum dolor sit amet.</p>
+              <h4>Chicken Fried Rice.</h4>
+              <p>Chicken fried rice is a dish made with cooked rice that is stir-fried with chicken, vegetables, and seasonings, typically soy sauce and eggs.</p>
             </div>
             <div class="precio-plato-carta">
-              <span>9€</span>
+              <span>7€</span>
             </div>
           </div> 
           <div class="plato-carta">
             <div class="img-plato-carta">
-              <img src="" alt="">
+              <a href="https://www.delish.com/cooking/recipe-ideas/a26553728/best-buffalo-chicken-pizza-recipe/">
+                <img src="https://themom100.com/wp-content/uploads/2022/06/buffalo-chicken-pizza-2164.jpg" alt="">
+              </a>
             </div>
             <div class="title-plato-carta">
-              <h4>Lorem, ipsum dolor.</h4>
-              <p>Lorem ipsum dolor sit amet.</p>
+              <h4>Buffalo Chicken Pizza.</h4>
+              <p>Buffalo chicken pizza is a spicy pizza topped with buffalo sauce, chicken, cheese, and sometimes additional toppings like onions and peppers.</p>
             </div>
             <div class="precio-plato-carta">
               <span>9€</span>
@@ -150,71 +130,128 @@
           </div>
           <div class="plato-carta">
             <div class="img-plato-carta">
-              <img src="" alt="">
+              <a href="https://www.delish.com/cooking/recipe-ideas/a22654914/enchilada-casserole-recipe/">
+                <img src="https://hips.hearstapps.com/hmg-prod/images/chicken-enchilada-casserole-horizontal-1533916821.jpg?crop=1xw:1xh;center,top&resize=980:*" alt="">
+              </a>
             </div>
             <div class="title-plato-carta">
-              <h4>Lorem, ipsum dolor.</h4>
-              <p>Lorem ipsum dolor sit amet.</p>
+              <h4>Chicken Enchilada Casserole.</h4>
+              <p>Chicken enchilada casserole is a baked dish with layers of tortillas, chicken, enchilada sauce, and cheese.</p>
             </div>
             <div class="precio-plato-carta">
-              <span>9€</span>
+              <span>12€</span>
             </div>
           </div>   
         </div>
 <!--Codi Alex-->
         <div>
-          <h2>Postre</h2>
+          <h2>Deserts</h2>
         </div>
         <div class="wrap column-2 carta">
           <div class="plato-carta">
             <div class="img-plato-carta">
-              <img src="" alt="">
+              <a href="https://www.goiko.com/plato/nicolas-cake/">
+                <img src="nicolascake.png" alt="nicolascake" >
+              </a>
             </div>
             <div class="title-plato-carta">
-              <h4>Lorem, ipsum dolor.</h4>
-              <p>Lorem ipsum dolor sit amet.</p>
+              <h4>Nicolas Cake</h4>
+              <p>Introducing NICOLAS CAKE, a chocolate sponge cake that plays the part of his life: to be the most brutal cake you've ever tasted.
+                Bathed in melted chocolate with a touch of caramel and accompanied with a scoop of vanilla ice cream.
+                Come try it!</p>
             </div>
             <div class="precio-plato-carta">
-              <span>9€</span>
+              <span>6,75€</span>
             </div>
           </div>
           <div class="plato-carta">
             <div class="img-plato-carta">
-              <img src="" alt="">
+              <a href="https://www.goiko.com/plato/tarta-de-queso/">
+                <img src="tartadequeso.png" alt="tartadequeso">
+              </a>
             </div>
             <div class="title-plato-carta">
-              <h4>Lorem, ipsum dolor.</h4>
-              <p>Lorem ipsum dolor sit amet.</p>
+              <h4>Cheese Cake</h4>
+              <p>According to us it is very good. Try it and tell us 😎
+
+              </p>
             </div>
             <div class="precio-plato-carta">
-              <span>9€</span>
+              <span>5,75€</span>
             </div>
           </div> 
           <div class="plato-carta">
             <div class="img-plato-carta">
-              <img src="" alt="">
+              <a href="https://www.goiko.com/plato/frozen-bomb/">
+                <img src="frozenbomb.png" alt="frozenbomb">
+              </a>
             </div>
             <div class="title-plato-carta">
-              <h4>Lorem, ipsum dolor.</h4>
-              <p>Lorem ipsum dolor sit amet.</p>
+              <h4>Frozen Bomb</h4>
+              <p>Delicious secret chocolate cookie-based dessert… Now with a Cheesecake heart! Sooooo YUM.</p>
             </div>
             <div class="precio-plato-carta">
-              <span>9€</span>
+              <span>6,50€</span>
             </div>
           </div>
           <div class="plato-carta">
             <div class="img-plato-carta">
-              <img src="" alt="">
+              <a href="https://www.goiko.com/plato/icake/">              
+                <img src="icake.png" alt="icakes">
+              </a>            
             </div>
             <div class="title-plato-carta">
-              <h4>Lorem, ipsum dolor.</h4>
-              <p>Lorem ipsum dolor sit amet.</p>
+              <h4>ICAKE</h4>
+              <p>Apple pie with a scoop of vanilla ice cream. Couple of teaspoons and to share.</p>
             </div>
             <div class="precio-plato-carta">
-              <span>9€</span>
+              <span>5,75€</span>
             </div>
           </div>   
         </div>
+        
+        <div class="footer">
+          <div class="footer-column">
+            <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">
+            <h3>Contacto</h3>
+            Sobre nosotros
+            <br>
+            Servicios
+            <br>
+            Recursos
+            <br>
+            Equipo            
+            </a>
+          </div>
+          <div class="footer-column">
+            <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">
+
+            <h3>Legal</h3>
+            Terminos
+            <br>
+            Politica de Privacidad
+            <br>
+            Cookies
+            <br>
+            Marketing        
+            
+        </a>   
+          </div>
+          <div class="footer-column">
+            <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">
+
+            <h3>Soporte</h3>
+            API            
+            <br>
+            FAQ
+            <br>
+            Agencies
+            <br>
+            Infraestructura          
+          </a>
+          </div>
+        </div>
+      </a>
     </div>
 
 </body>
